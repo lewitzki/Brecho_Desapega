@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Administrador',
             'email' => 'admin@adp.com',
             'password' => Hash::make('admin123'),
-            'role' => 'admin'
+            //'role' => 'admin'
         ]);
 
         $this->call([
